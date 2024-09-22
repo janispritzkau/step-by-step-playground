@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
+
+@layer components {
+  .heading {
+    @apply -mt-1 mb-4 text-3xl font-bold;
+  }
+
+  .subheading {
+    @apply -mt-1 mb-7 text-lg text-gray-600;
+  }
+}
